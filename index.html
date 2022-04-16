@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, cours, css, tags" >
+    <meta name="description" content="Это базовый курс по html" >
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML course</title>
+   
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="info">
+        <img src="аватар.jpg" class="avatar">
+
+        <div class="info-text">
+        <h1>Евгений Торкунов</h1>
+        
+        <br>
+        <br>
+        
+        <p>Здравствуйте. Я студент 3 курса бакалавриата <strong>Московской духовной академии</strong>. 
+            В свободное от учебы время <em>люблю заниматься спортом и вкусно кушать</em></p>
+        
+        <h4>Список социальных сетей:</h4>
+
+        <a href="https://t.me/EugeneTorkunov" target="_blank">Telegram</a>
+        </div>
+        </div>
+
+        
+        <div class="card bg-yellow">
+            <h1>Мои хобби</h1>
+
+            
+            <ol class="list">
+                <li>Кулинария</li>
+                <li>Спорт</li>
+                <li>Иностранные языки</li>
+                <li>Пение</li>
+                <li>Программирование</li>
+            </ol>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+            
+            <table class="table">
+            <thead>
+                <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Гастропаб "Моментс"</td>
+                    <td>Повар-универсал</td>
+                    <td>2016-2017</td>
+                </tr>
+                <tr>
+                    <td>Компас Групп</td>
+                    <td>Повар-универсал</td>
+                    <td>2017-2018</td>
+                </tr>
+                <tr>
+                    <td>МПДА</td>
+                    <td>Помощник коменданта общ.</td>
+                    <td>2019-н.в.</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+        
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+        
+        <div class="form-group">
+
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" 
+        placeholder="Введите Ваше имя">
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" 
+            placeholder="Введите Ваш email">
+    
+        </div>
+    </div>
+
+        <div class="form-group">
+
+            <label for="message">Ваше сообщение</label>
+            <textarea id="message" cols="20" rows="5" 
+            placeholder="Ведите Ваше сообщение..."></textarea>
+            
+        </div>
+
+        <input class="btn" type="submit" value="Отправить форму">
+
+        </form>
+
+    
+        
+    </div>
+</body>
+</html>
+
